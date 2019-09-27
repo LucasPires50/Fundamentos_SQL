@@ -122,7 +122,7 @@ SELECT COUNT(*) FROM cliente;
 SELECT cidade, COUNT(*) FROM cliente
 GROUP BY cidade;
 
--- Para filtar o agrupamento 
+-- Para filtrar o agrupamento 
 SELECT cidade, COUNT(*) AS quantidade FROM cliente
 GROUP BY cidade
 HAVING quantidade = 2;
